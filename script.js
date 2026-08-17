@@ -1,3 +1,1 @@
-function toggleMenu(){document.querySelector('.nav').classList.toggle('open')}
-document.querySelectorAll('nav a').forEach(a=>a.addEventListener('click',()=>document.querySelector('.nav').classList.remove('open')));
-document.getElementById('year').textContent=new Date().getFullYear();
+function toggleMenu(){document.querySelector('.nav').classList.toggle('open')}document.querySelectorAll('nav a').forEach(a=>a.onclick=()=>document.querySelector('.nav').classList.remove('open'));document.getElementById('year').textContent=new Date().getFullYear();
