@@ -1,10 +1,514 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>TechPoint Electronics | Thimphu, Bhutan</title><meta name="description" content="TechPoint Electronics in Thimphu, Bhutan."><link rel="stylesheet" href="style.css"></head><body>
-<header><div class="nav"><a class="logo" href="#home">Tech<span>Point</span></a><button onclick="toggleMenu()">☰</button><nav><a href="#home">Home</a><a href="#products">Products</a><a href="#about">About</a><a href="#contact">Contact</a></nav></div></header>
-<section id="home" class="hero"><div class="heroText"><small>YOUR LOCAL ELECTRONICS STORE • THIMPHU</small><h1>Smart technology.<br><b>Better choice.</b></h1><p>Laptops, mobile phones, speakers, accessories and computer components — all in one place.</p><div class="actions"><a class="btn blue" href="#products">Shop Products</a><a class="btn green" target="_blank" href="https://wa.me/97517689457?text=Hello%20TechPoint%20Electronics">WhatsApp Us</a><a class="btn white" href="tel:+97517689457">📞 Call Now</a></div></div><div class="heroCard"><div class="big">💻</div><small>QUALITY • VALUE • SERVICE</small><h2>Technology for everyday life</h2><p>Good products, competitive prices and friendly local service.</p></div></section>
-<section id="products"><div class="wrap"><div class="heading"><small>OUR PRODUCTS</small><h2>Shop by Category</h2><p>Ask us about availability, specifications and current prices.</p></div><div class="grid">
-<article class="card"><div class="pic laptop">💻</div><div class="body"><small>Computers</small><h3>Laptops</h3><p>Office, study, business and everyday laptops.</p><div class="bottom"><strong>Price on request</strong><a target="_blank" href="https://wa.me/97517689457?text=Hello%20TechPoint,%20I%20am%20interested%20in%20laptops.">Ask on WhatsApp →</a></div></div></article><article class="card"><div class="pic phone">📱</div><div class="body"><small>Mobile</small><h3>Mobile Phones</h3><p>Smartphones and useful mobile accessories.</p><div class="bottom"><strong>Price on request</strong><a target="_blank" href="https://wa.me/97517689457?text=Hello%20TechPoint,%20I%20am%20interested%20in%20mobile%20phones.">Ask on WhatsApp →</a></div></div></article><article class="card"><div class="pic speaker">🔊</div><div class="body"><small>Audio</small><h3>Portable Speakers</h3><p>Portable audio for home, travel and events.</p><div class="bottom"><strong>Price on request</strong><a target="_blank" href="https://wa.me/97517689457?text=Hello%20TechPoint,%20I%20am%20interested%20in%20portable%20speakers.">Ask on WhatsApp →</a></div></div></article><article class="card"><div class="pic accessories">🎧</div><div class="body"><small>Accessories</small><h3>Accessories</h3><p>Chargers, cables, earphones and more.</p><div class="bottom"><strong>Price on request</strong><a target="_blank" href="https://wa.me/97517689457?text=Hello%20TechPoint,%20I%20am%20interested%20in%20accessories.">Ask on WhatsApp →</a></div></div></article><article class="card"><div class="pic components">🖥️</div><div class="body"><small>PC</small><h3>Computer Components</h3><p>Parts and components for computer upgrades.</p><div class="bottom"><strong>Price on request</strong><a target="_blank" href="https://wa.me/97517689457?text=Hello%20TechPoint,%20I%20am%20interested%20in%20computer%20components.">Ask on WhatsApp →</a></div></div></article><article class="card"><div class="pic other">⚡</div><div class="body"><small>Electronics</small><h3>Other Electronics</h3><p>Practical electronics for home, work and entertainment.</p><div class="bottom"><strong>Price on request</strong><a target="_blank" href="https://wa.me/97517689457?text=Hello%20TechPoint,%20I%20am%20interested%20in%20other%20electronics.">Ask on WhatsApp →</a></div></div></article></div><p class="note">💡 Contact us for the latest stock and prices in Nu.</p></div></section>
-<section class="cta"><div class="wrap"><div><small>NEED HELP CHOOSING?</small><h2>Ask us about the right product for you.</h2></div><a class="btn green" target="_blank" href="https://wa.me/97517689457?text=Hello%20TechPoint,%20I%20need%20help%20choosing%20a%20product.">💬 Chat on WhatsApp</a></div></section>
-<section id="about" class="dark"><div class="about"><div><small>ABOUT TECHPOINT</small><h2>Your local technology partner.</h2></div><div><p>TechPoint Electronics is a local electronics shop in Thimphu, Bhutan, offering quality and affordable technology products for everyday needs.</p><p>Our goal is to provide competitive prices, reliable products and friendly customer service for work, study, business and entertainment.</p></div></div></section>
-<section id="contact"><div class="wrap"><div class="heading"><small>GET IN TOUCH</small><h2>Contact TechPoint</h2><p>We're happy to answer questions about products, stock and prices.</p></div><div class="contacts">
-<a href="tel:+97517689457"><b>📞 Call Us</b><p>+975 17689457</p></a><a href="mailto:manibaraily9@gmail.com"><b>✉️ Email</b><p>manibaraily9@gmail.com</p></a><a target="_blank" href="https://www.google.com/maps/search/?api=1&query=Thimphu%2C%20Bhutan"><b>📍 Location</b><p>Thimphu, Bhutan</p></a></div><div class="map"><div><h3>📍 Find us in Thimphu</h3><p>Replace the map link with your exact shop pin when available.</p></div><a class="btn blue" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Thimphu%2C%20Bhutan">Open Google Maps</a></div></div></section>
-<a class="float" target="_blank" href="https://wa.me/97517689457?text=Hello%20TechPoint%20Electronics">💬</a><footer><div>© <span id="year"></span> TechPoint Electronics</div><div>Thimphu, Bhutan • +975 17689457</div></footer><script src="script.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>TechPoint Electronics | Thimphu, Bhutan</title>
+
+  <meta name="description"
+        content="TechPoint Electronics in Thimphu, Bhutan. Laptops, mobile phones, speakers, accessories and computer components.">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <div class="nav">
+
+    <a class="logo" href="#home">
+      Tech<span>Point</span>
+    </a>
+
+    <button class="menu-button" onclick="toggleMenu()">☰</button>
+
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#products">Products</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+  </div>
+</header>
+
+
+<!-- HOME -->
+
+<section id="home" class="hero">
+
+  <div class="hero-text">
+
+    <small>YOUR LOCAL ELECTRONICS STORE • THIMPHU</small>
+
+    <h1>
+      Smart technology.<br>
+      <b>Better choice.</b>
+    </h1>
+
+    <p>
+      Laptops, mobile phones, speakers, accessories and
+      computer components — all in one place.
+    </p>
+
+    <div class="actions">
+
+      <a class="btn blue" href="#products">
+        Shop Products
+      </a>
+
+      <a class="btn green"
+         target="_blank"
+         href="https://wa.me/97517689457?text=Hello%20TechPoint%20Electronics">
+        WhatsApp Us
+      </a>
+
+      <a class="btn white" href="tel:+97517689457">
+        📞 Call Now
+      </a>
+
+    </div>
+
+  </div>
+
+
+  <div class="hero-card">
+
+    <div class="big">💻</div>
+
+    <small>QUALITY • VALUE • SERVICE</small>
+
+    <h2>Technology for everyday life</h2>
+
+    <p>
+      Good products, competitive prices and friendly local service.
+    </p>
+
+  </div>
+
+</section>
+
+
+<!-- PRODUCTS -->
+
+<section id="products">
+
+  <div class="wrap">
+
+    <div class="heading">
+
+      <small>OUR PRODUCTS</small>
+
+      <h2>Shop by Category</h2>
+
+      <p>
+        Ask us about availability, specifications and current prices.
+      </p>
+
+    </div>
+
+
+    <div class="grid">
+
+
+      <!-- LAPTOPS -->
+
+      <article class="card">
+
+        <div class="pic laptop">
+          💻
+        </div>
+
+        <div class="body">
+
+          <small>COMPUTERS</small>
+
+          <h3>Laptops</h3>
+
+          <p>
+            Office, study, business and everyday laptops.
+          </p>
+
+          <div class="bottom">
+
+            <strong>Price on request</strong>
+
+            <a target="_blank"
+               href="https://wa.me/97517689457?text=Hello%20TechPoint,%20I%20am%20interested%20in%20laptops.">
+              Ask on WhatsApp →
+            </a>
+
+          </div>
+
+        </div>
+
+      </article>
+
+
+      <!-- MOBILE PHONES -->
+
+      <article class="card">
+
+        <div class="pic phone">
+          📱
+        </div>
+
+        <div class="body">
+
+          <small>MOBILE</small>
+
+          <h3>Mobile Phones</h3>
+
+          <p>
+            Smartphones and useful mobile accessories.
+          </p>
+
+          <div class="bottom">
+
+            <strong>Price on request</strong>
+
+            <a target="_blank"
+               href="https://wa.me/97517689457?text=Hello%20TechPoint,%20I%20am%20interested%20in%20mobile%20phones.">
+              Ask on WhatsApp →
+            </a>
+
+          </div>
+
+        </div>
+
+      </article>
+
+
+      <!-- SPEAKERS -->
+
+      <article class="card">
+
+        <div class="pic speaker">
+          🔊
+        </div>
+
+        <div class="body">
+
+          <small>AUDIO</small>
+
+          <h3>Portable Speakers</h3>
+
+          <p>
+            Portable audio for home, travel and events.
+          </p>
+
+          <div class="bottom">
+
+            <strong>Price on request</strong>
+
+            <a target="_blank"
+               href="https://wa.me/97517689457?text=Hello%20TechPoint,%20I%20am%20interested%20in%20portable%20speakers.">
+              Ask on WhatsApp →
+            </a>
+
+          </div>
+
+        </div>
+
+      </article>
+
+
+      <!-- ACCESSORIES -->
+
+      <article class="card">
+
+        <div class="pic accessories">
+          🎧
+        </div>
+
+        <div class="body">
+
+          <small>ACCESSORIES</small>
+
+          <h3>Accessories</h3>
+
+          <p>
+            Chargers, cables, earphones and more.
+          </p>
+
+          <div class="bottom">
+
+            <strong>Price on request</strong>
+
+            <a target="_blank"
+               href="https://wa.me/97517689457?text=Hello%20TechPoint,%20I%20am%20interested%20in%20accessories.">
+              Ask on WhatsApp →
+            </a>
+
+          </div>
+
+        </div>
+
+      </article>
+
+
+      <!-- COMPUTER COMPONENTS -->
+
+      <article class="card">
+
+        <div class="pic components">
+          🖥️
+        </div>
+
+        <div class="body">
+
+          <small>PC</small>
+
+          <h3>Computer Components</h3>
+
+          <p>
+            Parts and components for computer upgrades.
+          </p>
+
+          <div class="bottom">
+
+            <strong>Price on request</strong>
+
+            <a target="_blank"
+               href="https://wa.me/97517689457?text=Hello%20TechPoint,%20I%20am%20interested%20in%20computer%20components.">
+              Ask on WhatsApp →
+            </a>
+
+          </div>
+
+        </div>
+
+      </article>
+
+
+      <!-- OTHER ELECTRONICS -->
+
+      <article class="card">
+
+        <div class="pic other">
+          ⚡
+        </div>
+
+        <div class="body">
+
+          <small>ELECTRONICS</small>
+
+          <h3>Other Electronics</h3>
+
+          <p>
+            Practical electronics for home, work and entertainment.
+          </p>
+
+          <div class="bottom">
+
+            <strong>Price on request</strong>
+
+            <a target="_blank"
+               href="https://wa.me/97517689457?text=Hello%20TechPoint,%20I%20am%20interested%20in other electronics.">
+              Ask on WhatsApp →
+            </a>
+
+          </div>
+
+        </div>
+
+      </article>
+
+    </div>
+
+
+    <p class="note">
+      💡 Contact us for the latest stock and prices in Nu.
+    </p>
+
+  </div>
+
+</section>
+
+
+<!-- WHATSAPP CALL TO ACTION -->
+
+<section class="cta">
+
+  <div class="wrap">
+
+    <div>
+
+      <small>NEED HELP CHOOSING?</small>
+
+      <h2>
+        Ask us about the right product for you.
+      </h2>
+
+    </div>
+
+    <a class="btn green"
+       target="_blank"
+       href="https://wa.me/97517689457?text=Hello%20TechPoint,%20I%20need%20help%20choosing%20a%20product.">
+      💬 Chat on WhatsApp
+    </a>
+
+  </div>
+
+</section>
+
+
+<!-- ABOUT -->
+
+<section id="about" class="dark">
+
+  <div class="about">
+
+    <div>
+
+      <small>ABOUT TECHPOINT</small>
+
+      <h2>
+        Your local technology partner.
+      </h2>
+
+    </div>
+
+    <div>
+
+      <p>
+        TechPoint Electronics is a local electronics shop
+        in Thimphu, Bhutan, offering quality and affordable
+        technology products for everyday needs.
+      </p>
+
+      <p>
+        Our goal is to provide competitive prices,
+        reliable products and friendly customer service
+        for work, study, business and entertainment.
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- CONTACT -->
+
+<section id="contact">
+
+  <div class="wrap">
+
+    <div class="heading">
+
+      <small>GET IN TOUCH</small>
+
+      <h2>Contact TechPoint</h2>
+
+      <p>
+        We're happy to answer questions about products,
+        stock and prices.
+      </p>
+
+    </div>
+
+
+    <div class="contacts">
+
+
+      <!-- PHONE -->
+
+      <a href="tel:+97517689457">
+
+        <b>📞 Call Us</b>
+
+        <p>
+          +975 17689457
+        </p>
+
+      </a>
+
+
+      <!-- EMAIL -->
+
+      <a href="mailto:manibaraily9@gmail.com">
+
+        <b>✉️ Email</b>
+
+        <p>
+          manibaraily9@gmail.com
+        </p>
+
+      </a>
+
+
+      <!-- LOCATION -->
+
+      <a target="_blank"
+         href="https://www.google.com/maps/search/?api=1&query=Thimphu%2C%20Bhutan">
+
+        <b>📍 Location</b>
+
+        <p>
+          Thimphu, Bhutan
+        </p>
+
+      </a>
+
+    </div>
+
+
+    <div class="map">
+
+      <div>
+
+        <h3>
+          📍 Find us in Thimphu
+        </h3>
+
+        <p>
+          Replace the map link with your exact shop
+          location when available.
+        </p>
+
+      </div>
+
+      <a class="btn blue"
+         target="_blank"
+         href="https://www.google.com/maps/search/?api=1&query=Thimphu%2C%20Bhutan">
+        Open Google Maps
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- FLOATING WHATSAPP -->
+
+<a class="float"
+   target="_blank"
+   href="https://wa.me/97517689457?text=Hello%20TechPoint%20Electronics">
+  💬
+</a>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+  <div>
+    © <span id="year"></span> TechPoint Electronics
+  </div>
+
+  <div>
+    Thimphu, Bhutan • +975 17689457
+  </div>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
